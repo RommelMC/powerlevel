@@ -1,0 +1,7 @@
+<fieldset disabled="disabled">
+  <legend>Human</legend>
+  <p>Power Level: {{level}}</p>
+  <h4 *ngIf="level > 9000 && level < 20000">"Over 9000!"</h4>
+  <h4 *ngIf="level > 20000 && level != 50000">"Superlative!"</h4>
+  <h4 *ngIf="level == 50000">"The One!"</h4>
+</fieldset>
